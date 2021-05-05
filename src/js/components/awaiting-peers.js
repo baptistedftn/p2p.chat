@@ -5,8 +5,8 @@ export default (props) => {
 
   return (
     <div id='awaiting-peers' className='hero container'>
-      <h3>Waiting for peers...</h3>
-      <p>Share the link to start a video call</p>
+      <h3>En attente d'un correspondant</h3>
+      <p>Partagez le lien pour commencer l'appel vidéo</p>
       <CopyLink />
     </div>
   )

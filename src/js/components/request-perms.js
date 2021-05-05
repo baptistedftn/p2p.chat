@@ -6,10 +6,10 @@ export default (props) => {
 
   return (
     <div id='request-perms' className='container'>
-      <h3>{created ? 'Creating ' : null}{roomName}</h3>
+      <h3>{created ? 'Création ' : null}{roomName}</h3>
       {
         !created ? (
-          <h5>You are about to join a video call.</h5>
+          <h5>Vous êtes sur le point de rejoindre un appel vidéo.</h5>
         ): null
       }
       <button
@@ -17,7 +17,7 @@ export default (props) => {
         className='button-primary'
         onClick={onRequestPerms}
       >
-        Allow mic/cam access
+        Autoriser l'accès au micro / caméra
       </button>
     </div>
   )

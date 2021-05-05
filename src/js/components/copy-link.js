@@ -39,7 +39,7 @@ export default class CopyLink extends React.Component {
         type='button'
         onClick={this.handleCopy.bind(this)}
       >
-        {copied ? 'Copied!' : 'Copy link'}
+        {copied ? 'Copié!' : 'Copier le lien'}
       </button>
     )
 

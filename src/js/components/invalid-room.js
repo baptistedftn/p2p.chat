@@ -4,13 +4,13 @@ export default () => {
 
   return (
     <div className='hero container'>
-      <h3>Invalid room</h3>
-      <p>Oops - looks like you've been sent an invalid link!</p>
+      <h3>Salle invalide</h3>
+      <p>Oups, il semble que vous ayez reçu un lien non valide!</p>
       <a
         href="/"
         className='button button-primary'
       >
-        Home
+        Retour à l'accueil
       </a>
     </div>
   )
